@@ -55,12 +55,12 @@
             </ContentControl>-->
             <!-- Features dock window -->
             
-            <ContentControl Name="Features" syncfusion:DockingManager.Header="Features" syncfusion:DockingManager.State="Document" syncfusion:DockingManager.CanDock="False" syncfusion:DocumentContainer.MDIBounds="30,30,300,300" syncfusion:DockingManager.CanFloat="False">
+            <ContentControl Name="Features" syncfusion:DockingManager.Header="Features" syncfusion:DockingManager.State="Document" syncfusion:DocumentContainer.MDIBounds="30,30,300,300" syncfusion:DockingManager.CanFloat="False">
                 <Label Content="Hello World !" />
             </ContentControl>
             
             <!-- Docking dock window -->
-            <ContentControl Name="Docking" syncfusion:DockingManager.Header="Docking" syncfusion:DockingManager.State="Document" syncfusion:DockingManager.CanDock="False" syncfusion:DocumentContainer.MDIBounds="60,60,300,300" syncfusion:DockingManager.CanFloat="False">
+            <ContentControl Name="Docking" syncfusion:DockingManager.Header="Docking" syncfusion:DockingManager.State="Document" syncfusion:DocumentContainer.MDIBounds="60,60,300,300" syncfusion:DockingManager.CanFloat="False">
                 <ContentControl.Content>
                     <RichTextBox />
                 </ContentControl.Content>
